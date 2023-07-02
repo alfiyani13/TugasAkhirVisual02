@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 206
-  Top = 198
+  Left = 197
+  Top = 104
   Width = 1166
   Height = 446
   Caption = 'TABEL ORTU'
@@ -272,16 +272,17 @@ object Form3: TForm3
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'database_siswa'
+    Database = 'visual2'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\semester 4\visual2\tugas akhir\libmysql.dll'
+    LibraryLocation = 
+      'C:\Users\Akhmad Alfiani\Documents\semester 4\PEMROGRAMAN VISUAL ' +
+      'TUGAS AKHIR\tugas visual akhir\libmysql.dll'
     Left = 376
     Top = 40
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from tbl_ortu')
     Params = <>

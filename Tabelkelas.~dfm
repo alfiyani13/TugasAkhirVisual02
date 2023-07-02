@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 281
-  Top = 175
+  Left = 268
+  Top = 138
   Width = 772
   Height = 493
   Caption = 'TABEL KELAS'
@@ -155,6 +155,7 @@ object Form1: TForm1
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
+    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'visual2'
@@ -162,7 +163,7 @@ object Form1: TForm1
     Protocol = 'mysql'
     LibraryLocation = 
       'C:\Users\Akhmad Alfiani\Documents\semester 4\PEMROGRAMAN VISUAL ' +
-      'TUGAS AKHIR\tugas akhir\libmysql.dll'
+      'TUGAS AKHIR\tugas visual akhir\libmysql.dll'
     Left = 504
     Top = 24
   end

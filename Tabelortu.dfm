@@ -272,7 +272,7 @@ object Form3: TForm3
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'visual2'
+    Database = 'db_visual2'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 
@@ -284,7 +284,7 @@ object Form3: TForm3
   object zqry1: TZQuery
     Connection = con1
     SQL.Strings = (
-      'select * from tbl_ortu')
+      'select * from tabel_ortu')
     Params = <>
     Left = 376
     Top = 88

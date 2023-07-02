@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 202
-  Top = 201
+  Left = 176
+  Top = 64
   Width = 1210
   Height = 429
   Caption = 'TABEL WALI KELAS'
@@ -258,16 +258,17 @@ object Form2: TForm2
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'database_siswa'
+    Database = 'visual2'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\semester 4\visual2\tugas akhir\libmysql.dll'
+    LibraryLocation = 
+      'C:\Users\Akhmad Alfiani\Documents\semester 4\PEMROGRAMAN VISUAL ' +
+      'TUGAS AKHIR\tugas visual akhir\libmysql.dll'
     Left = 376
     Top = 40
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from tbl_walikelas')
     Params = <>

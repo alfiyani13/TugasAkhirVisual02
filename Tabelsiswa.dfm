@@ -1,7 +1,7 @@
 object Form6: TForm6
-  Left = 256
-  Top = 124
-  Width = 907
+  Left = 249
+  Top = 61
+  Width = 819
   Height = 652
   Caption = 'Tabel Siswa'
   Color = clYellow
@@ -315,7 +315,7 @@ object Form6: TForm6
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'visual2'
+    Database = 'db_visual2'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 
@@ -326,11 +326,12 @@ object Form6: TForm6
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
       'select * from table_siswa')
     Params = <>
-    Left = 728
-    Top = 280
+    Left = 736
+    Top = 288
   end
   object frxReport1: TfrxReport
     Version = '4.0.11'

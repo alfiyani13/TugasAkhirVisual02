@@ -1,6 +1,6 @@
 object Form7: TForm7
-  Left = 244
-  Top = 171
+  Left = 220
+  Top = 71
   Width = 1044
   Height = 599
   Caption = 'TABEL HUBUNGAN'
@@ -201,7 +201,7 @@ object Form7: TForm7
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'visual2'
+    Database = 'db_visual2'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 
@@ -212,24 +212,27 @@ object Form7: TForm7
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
-      'select * from tbl_hubungan')
+      'select * from tabel_hubungan')
     Params = <>
     Left = 504
     Top = 112
   end
   object zqry2: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
-      'select * from tbl_siswa')
+      'select * from table_siswa')
     Params = <>
     Left = 576
     Top = 176
   end
   object zqry3: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
-      'select * from tbl_ortu')
+      'select * from tabel_ortu')
     Params = <>
     Left = 624
     Top = 176

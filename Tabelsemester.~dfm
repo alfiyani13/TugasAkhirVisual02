@@ -297,7 +297,7 @@ object Form8: TForm8
     Protocol = 'mysql'
     LibraryLocation = 
       'C:\Users\Akhmad Alfiani\Documents\semester 4\PEMROGRAMAN VISUAL ' +
-      'TUGAS AKHIR\tugas akhir\libmysql.dll'
+      'TUGAS AKHIR\tugas visual akhir\libmysql.dll'
     Left = 384
     Top = 208
   end

@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 264
-  Top = 100
+  Left = 268
+  Top = 138
   Width = 772
   Height = 493
   Caption = 'TABEL KELAS'
@@ -158,7 +158,7 @@ object Form1: TForm1
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'visual2'
+    Database = 'db_visual2'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 

@@ -292,7 +292,7 @@ object Form8: TForm8
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'visual2'
+    Database = 'db_visual2'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 
@@ -303,6 +303,7 @@ object Form8: TForm8
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
       'select * from tabel_semester')
     Params = <>
@@ -311,14 +312,16 @@ object Form8: TForm8
   end
   object zqry2: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
-      'select * from tabel_siswa')
+      'select * from table_siswa')
     Params = <>
     Left = 512
     Top = 272
   end
   object zqry3: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
       'select * from tabel_poin')
     Params = <>
@@ -327,6 +330,7 @@ object Form8: TForm8
   end
   object zqry4: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
       'select * from tabel_wali_kelas')
     Params = <>
@@ -335,6 +339,7 @@ object Form8: TForm8
   end
   object zqry5: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
       'select * from tabel_ortu')
     Params = <>
@@ -343,10 +348,11 @@ object Form8: TForm8
   end
   object zqry6: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
       'select * from tabel_kelas')
     Params = <>
-    Left = 648
+    Left = 640
     Top = 248
   end
   object frxDBDataset1: TfrxDBDataset

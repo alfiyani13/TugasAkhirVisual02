@@ -28,8 +28,8 @@ type
     c1: TComboBox;
     c2: TComboBox;
     l4: TLabel;
-    frxrprt1: TfrxReport;
-    frxdbdtst1: TfrxDBDataset;
+    frxDBDataset1: TfrxDBDataset;
+    frxReport1: TfrxReport;
     procedure editbersih;
     procedure editenable;
     procedure posisiawal;
@@ -200,7 +200,7 @@ end;
 
 procedure TForm4.b6Click(Sender: TObject);
 begin
-frxrprt1.showreport();
+frxReport1.ShowReport();
 end;
 
 end.

@@ -182,7 +182,7 @@ object Form4: TForm4
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'visual2'
+    Database = 'db_visual2'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 
@@ -194,7 +194,7 @@ object Form4: TForm4
   object zqry1: TZQuery
     Connection = con1
     SQL.Strings = (
-      'select * from tbl_poin')
+      'select * from tabel_poin')
     Params = <>
     Left = 504
     Top = 72

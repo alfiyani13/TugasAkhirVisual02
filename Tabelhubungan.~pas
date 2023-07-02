@@ -102,13 +102,13 @@ begin
 zqry2.First;
 while not zqry2.Eof do
 begin
-  c1.items.add(zqry2.fieldbyname('siswa_id').asstring);
+  c1.items.add(zqry2.fieldbyname('id_siswa').asstring);
   zqry2.Next;
 end;
 zqry3.First;
 while not zqry3.Eof do
 begin
-  c2.items.add(zqry3.fieldbyname('ortu_id').asstring);
+  c2.items.add(zqry3.fieldbyname('id_ortu').asstring);
   zqry3.Next;
 end;
 end;

@@ -25,8 +25,8 @@ type
     ds1: TDataSource;
     con1: TZConnection;
     zqry1: TZQuery;
-    frxrprt1: TfrxReport;
-    frxdbdtst1: TfrxDBDataset;
+    frxReport1: TfrxReport;
+    frxDBDataset1: TfrxDBDataset;
     procedure bersih;
     procedure editenable;
     procedure posisiawal;
@@ -193,7 +193,7 @@ end;
 
 procedure TForm1.b6Click(Sender: TObject);
 begin
-frxrprt1.ShowReport();
+frxReport1.ShowReport();
 end;
 
 end.

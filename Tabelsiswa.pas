@@ -43,8 +43,8 @@ type
     l11: TLabel;
     l12: TLabel;
     dtp1: TDateTimePicker;
-    frxReport1: TfrxReport;
-    frxdbdtst1: TfrxDBDataset;
+    frxDBDataset1: TfrxDBDataset;
+    frxReport2: TfrxReport;
     procedure editbersih;
     procedure editenable;
     procedure posisiawal;
@@ -241,8 +241,8 @@ Edit9.Text:= zqry1.FieldList[11].AsString;
 end;
 
 procedure TForm6.b6Click(Sender: TObject);
-begin
-frxReport1.showreport();
+begin;
+frxReport2.ShowReport();
 end;
 
 end.

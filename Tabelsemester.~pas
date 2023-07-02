@@ -101,31 +101,31 @@ begin
 zqry2.First;
 while not zqry2.Eof do
 begin
-  c1.items.add(zqry2.fieldbyname('siswa_id').asstring);
+  c1.items.add(zqry2.fieldbyname('id_siswa').asstring);
   zqry2.Next;
 end;
 zqry3.First;
 while not zqry3.Eof do
 begin
-  c2.items.add(zqry3.fieldbyname('poin_id').asstring);
+  c2.items.add(zqry3.fieldbyname('id_poin').asstring);
   zqry3.Next;
 end;
 zqry4.First;
 while not zqry4.Eof do
 begin
-  c3.items.add(zqry4.fieldbyname('wali_id').asstring);
+  c3.items.add(zqry4.fieldbyname('id_wali').asstring);
   zqry4.Next;
 end;
 zqry5.First;
 while not zqry5.Eof do
 begin
-  c4.items.add(zqry5.fieldbyname('ortu_id').asstring);
+  c4.items.add(zqry5.fieldbyname('id_ortu').asstring);
   zqry5.Next;
 end;
 zqry6.First;
 while not zqry6.Eof do
 begin
-  c5.items.add(zqry6.fieldbyname('kelas_id').asstring);
+  c5.items.add(zqry6.fieldbyname('id_kelas').asstring);
   zqry6.Next;
 end;
 end;

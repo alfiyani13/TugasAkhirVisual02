@@ -1,7 +1,7 @@
 object Form5: TForm5
-  Left = 250
-  Top = 179
-  Width = 1044
+  Left = 260
+  Top = 94
+  Width = 938
   Height = 540
   Caption = 'TABEL USER'
   Color = clActiveBorder
@@ -174,7 +174,7 @@ object Form5: TForm5
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'visual2'
+    Database = 'db_visual2'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 
@@ -186,7 +186,7 @@ object Form5: TForm5
   object zqry1: TZQuery
     Connection = con1
     SQL.Strings = (
-      'select * from tbl_user')
+      'select * from tabel_user')
     Params = <>
     Left = 504
     Top = 72

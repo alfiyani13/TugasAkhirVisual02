@@ -31,8 +31,8 @@ type
     zqry3: TZQuery;
     l5: TLabel;
     Edit3: TEdit;
-    frxReport1: TfrxReport;
-    frxdbdtst1: TfrxDBDataset;
+    frxDBDataset1: TfrxDBDataset;
+    frxReport2: TfrxReport;
     procedure editbersih;
     procedure editenable;
     procedure posisiawal;
@@ -220,7 +220,7 @@ end;
 
 procedure TForm7.b6Click(Sender: TObject);
 begin
-frxReport1.showreport();
+frxReport2.ShowReport();
 end;
 
 end.

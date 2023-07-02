@@ -1,8 +1,8 @@
 object Form2: TForm2
-  Left = 176
-  Top = 64
-  Width = 1210
-  Height = 429
+  Left = 264
+  Top = 111
+  Width = 795
+  Height = 399
   Caption = 'TABEL WALI KELAS'
   Color = clSkyBlue
   Font.Charset = DEFAULT_CHARSET
@@ -258,7 +258,7 @@ object Form2: TForm2
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'visual2'
+    Database = 'db_visual2'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 
@@ -270,7 +270,7 @@ object Form2: TForm2
   object zqry1: TZQuery
     Connection = con1
     SQL.Strings = (
-      'select * from tbl_walikelas')
+      'select * from tabel_wali_kelas')
     Params = <>
     Left = 376
     Top = 88

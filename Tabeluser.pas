@@ -27,8 +27,8 @@ type
     Edit3: TEdit;
     Edit4: TEdit;
     l4: TLabel;
-    frxrprt1: TfrxReport;
-    frxdbdtst1: TfrxDBDataset;
+    frxDBDataset1: TfrxDBDataset;
+    frxReport1: TfrxReport;
     procedure editbersih;
     procedure editenable;
     procedure posisiawal;
@@ -199,7 +199,7 @@ end;
 
 procedure TForm5.b6Click(Sender: TObject);
 begin
-frxrprt1.showreport();
+frxReport1.ShowReport();
 end;
 
 end.
